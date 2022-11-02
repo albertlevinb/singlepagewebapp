@@ -1,3 +1,6 @@
+// Name: Albert Levin
+// Date: 11/1/22
+
 // Additional Sources: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#built-in_form_validation_examples
 // https://bootstrap-table.com/docs/extensions/sticky-header/
 
@@ -83,19 +86,19 @@ $(document).ready(function() {
 		// Manually entered in some custom error messages
 		messages: {
 			firstRow: {
-				required: "Both fields are required for the row values.",
+				required: "Both fields are required.",
 				number: "Please enter a valid integer."
 			},
 			lastRow: {
-				required: "Both fields are required for the row values.",
+				required: "Both fields are required.",
 				number: "Please enter a valid integer."
 			},
 			firstColumn: {
-				required: "Both fields are required for the column values.",
+				required: "Both fields are required.",
 				number: "Please enter a valid integer."
 			},
 			lastColumn: {
-				required: "Both fields are required for the column values.",
+				required: "Both fields are required.",
 				number: "Please enter a valid integer."
 			}
 		}
