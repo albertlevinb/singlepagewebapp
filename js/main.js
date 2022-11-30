@@ -1,5 +1,5 @@
 // Name: Albert Levin
-// Date: 11/1/22
+// Date: 11/29/22
 
 // Additional Sources: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#built-in_form_validation_examples
 // https://bootstrap-table.com/docs/extensions/sticky-header/
@@ -28,7 +28,6 @@ function generateMultiplicationTable() {
 		colFirst = temp2;
 		colLast = temp;
 	}
-
 
 	// To populate the table with the appropriate rows & columns, etc
 	var tableHTML = "<thead> <tr> <th> </th>"

@@ -1,8 +1,8 @@
-/* Name: Albert Levin
-   Date: 11/1/22 */
-
-th,
-thead {
+/* 
+Name: Albert Levin 
+Date: 11/29/22 
+*/
+th, thead {
 	border: 2px solid white;
 	color: white;
 	background: black;
@@ -10,21 +10,17 @@ thead {
 	top: 0;
 	left: 0;
 }
-
 tr:nth-child(2n) td:nth-child(2n + 1) {
 	border: 2px solid black;
 	background: white;
 }
-
 tr:nth-child(2n + 1) td:nth-child(2n) {
 	border: 2px solid black;
 	background: white;
 }
-
 td {
 	border: 2px solid black;
 }
-
 h1 {
 	color: #5d5d5d;
 	background-size: auto;
@@ -34,34 +30,26 @@ h1 {
 	border-style: solid;
 	border-width: 3px;
 }
-
 /* Set padding for the forms */
-#row-first,
-#row-last,
-#col-first,
-#col-last {
+#row-first, #row-last, #col-first, #col-last {
 	padding-top: 10px;
 }
-
 #inputForm {
 	margin-left: 20px;
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
 }
-
 /* Format spacing and round borders for the input form */
 input {
 	border-radius: 50px;
 	margin: 5px;
 	text-align: center;
 }
-
 .container {
 	color: black;
 	background-color: #d3d3d3;
 	border-radius: 20px;
 }
-
 .table-responsive {
 	max-width: 600px;
 	max-height: 600px;
